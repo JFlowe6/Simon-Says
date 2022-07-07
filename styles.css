@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: #c29440;
+    align-items: center;
+    justify-content: center;
+}
+
+#game{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 180%;
+    padding: 2rem;
+}
+
+/* #red{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 360%;
+} */
