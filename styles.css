@@ -6,7 +6,7 @@
 }
 
 head {
-    display:none;
+    display: none;
 }
 
 body{
@@ -17,40 +17,42 @@ body{
     justify-content: center;
 }
 
-#game{
+#gameContainer{
     width: 500px;
     height: 500px;
     background-color: black;
     border-radius: 180%;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 #red{
     height: 50%;
-    width: 50%;
+    width: 49%;
     background-color: red;
     border-top-left-radius: 180%;
 }
 
 #blue{
     height: 50%;
-    width: 50%;
+    width: 49%;
     background-color: blue;
     border-top-right-radius: 180%;
+    float: right;
 }
 
 #green{
     height: 50%;
-    width: 50%;
+    width: 49%;
     background-color: green;
     border-bottom-left-radius: 180%;
 }
 
 #yellow{
     height: 50%;
-    width: 50%;
+    width: 49%;
     background-color: yellow;
     border-bottom-right-radius: 180%;
+    float: right;
 }
 
 /* #gameBtn{
