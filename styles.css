@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: inline-block;
+}
+
+head {
+    display:none;
 }
 
 body{
@@ -17,12 +22,40 @@ body{
     height: 500px;
     background-color: black;
     border-radius: 180%;
-    padding: 2rem;
+    padding: 1rem;
 }
 
-/* #red{
-    width: 100%;
-    height: 100%;
+#red{
+    height: 50%;
+    width: 50%;
     background-color: red;
-    border-radius: 360%;
+    border-top-left-radius: 180%;
+}
+
+#blue{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    border-top-right-radius: 180%;
+}
+
+#green{
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    border-bottom-left-radius: 180%;
+}
+
+#yellow{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    border-bottom-right-radius: 180%;
+}
+
+/* #gameBtn{
+    height: 50%;
+    width: 0%;
+    border-radius: 180%;
+    background-color: black;
 } */
