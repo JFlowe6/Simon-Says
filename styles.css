@@ -15,6 +15,7 @@ body{
     background-color: #c29440;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #gameContainer{
@@ -55,9 +56,10 @@ body{
     float: right;
 }
 
-/* #gameBtn{
-    height: 50%;
-    width: 0%;
+#gameBtn{
+    height: 200px;
+    width: 200px;
     border-radius: 180%;
     background-color: black;
-} */
+    position:absolute;
+}
